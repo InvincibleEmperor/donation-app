@@ -6,6 +6,7 @@ import sectionImage1 from '../assets/akc-partner-logo-05.png'
 import sectionImage2 from '../assets/akc-partner-logo-06.png'
 import sectionImage3 from '../assets/akc-partner-logo-07.png'
 import sectionImage4 from '../assets/akc-partner-logo-08.png'
+import SlickSlider from "../component/SlickSlider";
 
 const programs = [
   {
@@ -114,6 +115,11 @@ const Donation = () => {
           </div>
           <div className="flex-[35.67%]"></div>
         </div>
+      </section>
+      <section className="py-4">
+                 <SlickSlider>
+                  
+                 </SlickSlider>
       </section>
     </Outer>
   );
