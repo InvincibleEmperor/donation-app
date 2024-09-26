@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sticky-container {
+    margin-top: -350px;
+}
